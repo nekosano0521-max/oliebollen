@@ -42,6 +42,7 @@ p.visual {
 p.visual img {
   width: 100%;
   height: auto;
+  border-radius: 0 0 200% 200% / 0 0 600px 600px;
 }
 
 /* メイン */
@@ -56,6 +57,7 @@ p.visual img {
 
 main div p.lineup_title {
   text-align: center;
+  font-size: 2.18rem;
   margin-bottom: 3rem;
 }
 
@@ -92,6 +94,10 @@ div.lineup div.lineup_1 section.lineup_right1 {
   flex-basis: 44.42%;
 }
 
+div.lineup div.lineup_1 section.lineup_right1 h2 {
+  font-size: 2.18rem;
+}
+
 div.lineup div.lineup_2 {
   background-color: #ff9211;
   line-height: 1.5;
@@ -103,7 +109,11 @@ div.lineup div.lineup_2 p.lineup_right2 {
   margin-top: 5.79%;
   margin-bottom: 5.79%;
   margin-right: 4.13%;
-  flex-basis: 38.88%;
+  flex-basis: 44.42%;
+}
+
+div.lineup div.lineup_2 section.lineup_left2 h2 {
+  font-size: 2.18rem;
 }
 
 div.lineup div.lineup_2 section.lineup_left2 {
@@ -135,6 +145,10 @@ div.lineup div.lineup_3 section.lineup_right3 {
   margin-bottom: 5.67%;
   margin-right: 4.13%;
   flex-basis: 44.42%;
+}
+
+div.lineup div.lineup_3 section.lineup_right3 h2 {
+  font-size: 2.18rem;
 }
 
 /* フッター */
