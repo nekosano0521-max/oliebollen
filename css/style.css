@@ -65,10 +65,76 @@ main div.lineup {
 }
 
 main div.lineup div {
-  background-color: #fff;
   width: 100%;
   min-height: 28.75rem;
   margin-bottom: 2.31rem;
+}
+
+div.lineup div.lineup_1 {
+  background-color: #ffe346;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.lineup div.lineup_1 p.lineup_left1 {
+  margin-top: 5.79%;
+  margin-bottom: 5.79%;
+  margin-left: 4.13%;
+  margin-right: 8.4%;
+  flex-basis: 38.88%;
+}
+
+div.lineup div.lineup_1 section.lineup_right1 {
+  margin-top: 5.67%;
+  margin-bottom: 5.67%;
+  margin-right: 4.13%;
+  flex-basis: 44.42%;
+}
+
+div.lineup div.lineup_2 {
+  background-color: #ff9211;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.lineup div.lineup_2 p.lineup_right2 {
+  margin-top: 5.79%;
+  margin-bottom: 5.79%;
+  margin-right: 4.13%;
+  flex-basis: 38.88%;
+}
+
+div.lineup div.lineup_2 section.lineup_left2 {
+  margin-top: 5.67%;
+  margin-bottom: 5.67%;
+  margin-left: 8.82%;
+  margin-right: 8.4%;
+  flex-basis: 38.88%;
+}
+
+div.lineup div.lineup_3 {
+  background-color: #ff5021;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.lineup div.lineup_3 p.lineup_left3 {
+  margin-top: 5.79%;
+  margin-bottom: 5.79%;
+  margin-left: 4.13%;
+  margin-right: 8.4%;
+  flex-basis: 38.88%;
+}
+
+div.lineup div.lineup_3 section.lineup_right3 {
+  margin-top: 5.67%;
+  margin-bottom: 5.67%;
+  margin-right: 4.13%;
+  flex-basis: 44.42%;
 }
 
 /* フッター */
