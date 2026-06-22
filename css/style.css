@@ -51,7 +51,7 @@ p.visual img {
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 61vw;
+  padding-top: 65vw;
 }
 
 main div p.lineuptitle {
@@ -64,8 +64,10 @@ main div.lineup {
 }
 
 main div.lineup section {
+  background-color: #fff;
   width: 100%;
-  height: 28.75rem;
+  min-height: 28.75rem;
+  margin-bottom: 2.31rem;
 }
 
 /* フッター */
