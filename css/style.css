@@ -45,6 +45,11 @@ main div p.linpuptitle {
   text-align: center;
 }
 
+main div.lineup {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* フッター */
 
 footer {
