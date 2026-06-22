@@ -13,13 +13,13 @@ header {
 header h1 {
   height: 8%;
   width: 8%;
+  padding: 1% 0 1% 1%;
   object-fit: contain;
 }
 
 header a:hover {
   text-decoration: none;
   opacity: 70%;
-  padding: 18px 8%;
 }
 
 header nav ul {
