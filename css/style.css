@@ -6,6 +6,11 @@ header {
   top: 0;
 }
 
+header h1 {
+  height: 8%;
+  width: 8%;
+}
+
 header a:hover {
   text-decoration: none;
   opacity: 70%;
