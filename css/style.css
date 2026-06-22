@@ -26,6 +26,14 @@ header nav ul li {
 
 /* メイン */
 
+.container {
+  background-color: #fff;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /* フッター */
 
 footer {
