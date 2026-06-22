@@ -26,6 +26,11 @@ header nav ul li {
   display: inline;
 }
 
+/* メインビジュアル */
+p.visual {
+  margin: -110px;
+}
+
 /* メイン */
 
 .container {
