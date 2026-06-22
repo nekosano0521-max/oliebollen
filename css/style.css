@@ -1,7 +1,7 @@
 /*---- ヘッダー ------*/
 
 header {
-  background-color: rgb(0 0 0 / 10%);
+  background-color: rgb(0 0 0 / 0%);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -46,8 +46,9 @@ p.visual img {
 }
 
 /* メイン */
+
 .container {
-  background-color: bisque;
+  /* background-color: bisque; */
   max-width: 980px;
   margin: 0 auto;
   padding-left: 20px;
@@ -55,6 +56,7 @@ p.visual img {
   padding-top: 65vw;
 }
 
+/* 商品説明 */
 main div p.lineup_title {
   text-align: center;
   font-size: 2.18rem;
@@ -73,7 +75,7 @@ main div.lineup div {
 }
 
 div.lineup div.lineup_1 {
-  background-color: #ffe346;
+  /* background-color: #ffe346; */
   line-height: 1.5;
   display: flex;
   justify-content: space-between;
@@ -99,7 +101,7 @@ div.lineup div.lineup_1 section.lineup_right1 h2 {
 }
 
 div.lineup div.lineup_2 {
-  background-color: #ff9211;
+  /* background-color: #ff9211; */
   line-height: 1.5;
   display: flex;
   justify-content: space-between;
@@ -125,7 +127,7 @@ div.lineup div.lineup_2 section.lineup_left2 {
 }
 
 div.lineup div.lineup_3 {
-  background-color: #ff5021;
+  /* background-color: #ff5021; */
   padding-bottom: 20px;
   line-height: 1.5;
   display: flex;
@@ -148,6 +150,104 @@ div.lineup div.lineup_3 section.lineup_right3 {
 }
 
 div.lineup div.lineup_3 section.lineup_right3 h2 {
+  font-size: 2.18rem;
+}
+
+/* ペアリング */
+main div p.pairing_title {
+  text-align: center;
+  font-size: 2.18rem;
+  margin-bottom: 3rem;
+}
+
+main div.pairing {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main div.pairing div {
+  width: 100%;
+  min-height: 28.75rem;
+  margin-bottom: 2.31rem;
+}
+
+div.pairing div.pairing_1 {
+  background-color: #ffe346;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.pairing div.pairing_1 p.pairing_left1 {
+  background-color: #fff;
+  margin-top: 5.79%;
+  margin-bottom: 5.79%;
+  margin-left: 4.13%;
+  margin-right: 12.13%;
+  flex-basis: 38.88%;
+}
+
+div.pairing div.pairing_1 section.pairing_right1 {
+  margin-top: 5.67%;
+  margin-bottom: 5.67%;
+  margin-right: 4.13%;
+  flex-basis: 44.42%;
+}
+
+div.pairing div.pairing_1 section.pairing_right1 h2 {
+  font-size: 2.18rem;
+}
+
+div.pairing div.pairing_2 {
+  background-color: #ff9211;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.pairing div.pairing_2 p.pairing_right2 {
+  margin-top: 5.79%;
+  margin-bottom: 5.79%;
+  margin-right: 4.13%;
+  flex-basis: 44.42%;
+}
+
+div.pairing div.pairing_2 section.pairing_left2 h2 {
+  font-size: 2.18rem;
+}
+
+div.pairing div.pairing_2 section.pairing_left2 {
+  margin-top: 5.67%;
+  margin-bottom: 5.67%;
+  margin-left: 8.82%;
+  margin-right: 12.13%;
+  flex-basis: 38.88%;
+}
+
+div.pairing div.pairing_3 {
+  background-color: #ff5021;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.pairing div.pairing_3 p.pairing_left3 {
+  margin-top: 5.79%;
+  margin-bottom: 5.79%;
+  margin-left: 4.13%;
+  margin-right: 12.13%;
+  flex-basis: 38.88%;
+}
+
+div.pairing div.pairing_3 section.pairing_right3 {
+  margin-top: 5.67%;
+  margin-bottom: 5.67%;
+  margin-right: 4.13%;
+  flex-basis: 44.42%;
+}
+
+div.pairing div.pairing_3 section.pairing_right3 h2 {
   font-size: 2.18rem;
 }
 
