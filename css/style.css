@@ -42,7 +42,7 @@ p.visual {
 p.visual img {
   width: 100%;
   height: auto;
-  border-radius: 0 0 200% 200% / 0 0 600px 600px;
+  border-radius: 0 0 350% 600% / 0 0 1500px 1500px;
 }
 
 /* メイン */
@@ -179,7 +179,7 @@ div.pairing div.pairing_1 {
 }
 
 div.pairing div.pairing_1 p.pairing_left1 {
-  background-color: #fff;
+  /* background-color: #fff; */
   margin-top: 5.79%;
   margin-bottom: 5.79%;
   margin-left: 4.13%;
@@ -249,6 +249,19 @@ div.pairing div.pairing_3 section.pairing_right3 {
 
 div.pairing div.pairing_3 section.pairing_right3 h2 {
   font-size: 2.18rem;
+}
+
+/* ドリンクメニュー */
+p.drink a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: fit-content;
+  padding: 15px 20px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: #5fd4ff;
+  background-position: center;
 }
 
 /* フッター */
