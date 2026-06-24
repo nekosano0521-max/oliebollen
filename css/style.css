@@ -264,6 +264,13 @@ p.drink a {
   background-position: center;
 }
 
+/* ディティール */
+main div p.detail_title {
+  text-align: center;
+  font-size: 2.18rem;
+  margin-bottom: 3rem;
+}
+
 /* フッター */
 
 footer {
