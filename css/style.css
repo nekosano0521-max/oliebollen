@@ -45,6 +45,13 @@ p.visual img {
   border-radius: 0 0 350% 600% / 0 0 1500px 1500px;
 }
 
+div.all svg {
+  position: absolute;
+  z-index: -1;
+  min-height: 100vw;
+  width: 100%;
+}
+
 /* メイン */
 
 .container {
