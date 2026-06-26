@@ -74,17 +74,17 @@ div.images {
 
 .cut_mango {
   position: absolute;
-  top: 40vw;
+  top: 37vw;
   width: 20%;
-  right: 5vw;
+  right: 10vw;
   z-index: 3;
 }
 
 .mango {
   position: absolute;
   top: 32vw;
-  width: 20%;
-  right: 3vw;
+  width: 30%;
+  right: -8vw;
   z-index: 2;
 }
 
