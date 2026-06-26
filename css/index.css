@@ -34,10 +34,10 @@ div.images {
 
 .left_reef1 {
   position: absolute;
-  top: 0;
+  top: -1vw;
   left: 0;
   z-index: -50;
-  width: 25vw;
+  width: 26vw;
   padding-top: 5vh;
 }
 
@@ -58,7 +58,7 @@ div.images {
 .right_reef1 {
   position: absolute;
   top: 20vw;
-  right: 0;
+  right: -3vw;
   width: 30%;
   z-index: 1;
   transform: rotate(6deg);
@@ -68,7 +68,7 @@ div.images {
   position: absolute;
   top: 20vw;
   width: 25%;
-  right: 0;
+  right: -3vw;
   transform: rotate(6deg);
 }
 
@@ -76,16 +76,32 @@ div.images {
   position: absolute;
   top: 37vw;
   width: 20%;
-  right: 10vw;
+  right: 4vw;
   z-index: 3;
 }
 
 .mango {
   position: absolute;
   top: 32vw;
-  width: 30%;
-  right: -8vw;
+  width: 35%;
+  right: -18vw;
   z-index: 2;
+}
+
+.cut_watermelon {
+  position: absolute;
+  top: 62vw;
+  width: 28vw;
+  left: -4vw;
+  z-index: 3;
+}
+
+.watermelon {
+  position: absolute;
+  top: 48vw;
+  width: 23%;
+  left: -4vw;
+  z-index: 0;
 }
 
 /* メイン */
