@@ -15,17 +15,25 @@ p.visual img {
   border-radius: 0 0 350% 600% / 0 0 1500px 1500px;
 }
 
+/* 位置調整 */
+
 div.all {
   padding-top: 65vw;
 }
+
+/* 波表現 */
 
 div.all svg {
   background-color: #f0f4fc;
   position: absolute;
   z-index: -1000;
-  min-height: 100vw;
+  top: 0;
+  left: 0;
   width: 100%;
+  bottom: 150px;
 }
+
+/* 背景画像 */
 
 div.images {
   position: relative;
