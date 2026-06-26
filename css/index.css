@@ -21,18 +21,6 @@ div.all {
   padding-top: 65vw;
 }
 
-/* 波表現 */
-
-div.all svg {
-  background-color: #f0f4fc;
-  position: absolute;
-  z-index: -1000;
-  top: 0;
-  left: 0;
-  width: 100%;
-  bottom: 150px;
-}
-
 /* 背景画像 */
 
 div.images {
@@ -114,7 +102,22 @@ div.images {
 
 /* メイン */
 
+main div.back {
+  background-image: url(../img/background_image.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
 /* 商品説明 */
+.container_index1 {
+  /* background-color: bisque; */
+  max-width: 980px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 main div p.lineup_title {
   text-align: center;
   font-size: 2.18rem;
@@ -227,6 +230,15 @@ div.lineup div.lineup_3 section.lineup_right3 h2 {
 }
 
 /* ペアリング */
+
+.container_index2 {
+  /* background-color: bisque; */
+  max-width: 980px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 main div p.pairing_title {
   text-align: center;
   font-size: 2.18rem;
@@ -344,6 +356,15 @@ p.drink a {
 }
 
 /* ディティール */
+
+.container_index3 {
+  /* background-color: bisque; */
+  max-width: 980px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 main div p.detail_title {
   text-align: center;
   font-size: 2.18rem;

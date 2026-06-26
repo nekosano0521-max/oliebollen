@@ -17,6 +17,10 @@ header h1 {
   object-fit: contain;
 }
 
+header a {
+  text-decoration: none;
+}
+
 header a:hover {
   text-decoration: none;
   opacity: 70%;
@@ -28,6 +32,11 @@ header nav ul {
 
 header nav ul li {
   display: inline;
+  margin-left: 30px;
+}
+
+header nav ul li:last-child {
+  margin-right: 30px;
 }
 
 /* メイン */
