@@ -1,0 +1,327 @@
+@import url(../css/common.css);
+
+/* メインビジュアル */
+p.visual {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+p.visual img {
+  width: 100%;
+  height: auto;
+  border-radius: 0 0 350% 600% / 0 0 1500px 1500px;
+}
+
+div.all {
+  padding-top: 65vw;
+}
+
+div.all svg {
+  background-color: #f0f4fc;
+  position: absolute;
+  z-index: -1000;
+  min-height: 100vw;
+  width: 100%;
+}
+
+div.images {
+  position: relative;
+  z-index: -100;
+}
+
+.left_reef1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -50;
+  width: 25vw;
+  padding-top: 5vh;
+}
+
+.cut_lemon {
+  position: absolute;
+  top: 12vw;
+  left: 5vw;
+  width: 15vw;
+}
+
+.lemon {
+  position: absolute;
+  top: 15vw;
+  left: 0;
+  width: 15%;
+}
+
+.right_reef1 {
+  position: absolute;
+  top: 20vw;
+  right: 0;
+  width: 30%;
+  z-index: 1;
+  transform: rotate(6deg);
+}
+
+.right_reef2 {
+  position: absolute;
+  top: 20vw;
+  width: 25%;
+  right: 0;
+  transform: rotate(6deg);
+}
+
+.cut_mango {
+  position: absolute;
+  top: 40vw;
+  width: 20%;
+  right: 5vw;
+  z-index: 3;
+}
+
+.mango {
+  position: absolute;
+  top: 32vw;
+  width: 20%;
+  right: 3vw;
+  z-index: 2;
+}
+
+/* メイン */
+
+/* 商品説明 */
+main div p.lineup_title {
+  text-align: center;
+  font-size: 2.18rem;
+  margin-bottom: 3rem;
+}
+
+main div.lineup {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main div.lineup div {
+  width: 100%;
+  min-height: 28.75rem;
+  margin-bottom: 2.31rem;
+}
+
+div.lineup div.lineup_1 {
+  /* background-color: #ffe346; */
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.lineup div.lineup_1 p.lineup_left1 {
+  margin-top: 5.79%;
+  margin-bottom: 5.79%;
+  margin-left: 4.13%;
+  margin-right: 8.4%;
+  flex-basis: 38.88%;
+}
+
+div.lineup div.lineup_1 p.lineup_left1 img {
+  transform: rotate(-16deg);
+  border: 12px solid #fff;
+}
+
+div.lineup div.lineup_1 section.lineup_right1 {
+  margin-top: 5.67%;
+  margin-bottom: 5.67%;
+  margin-right: 4.13%;
+  flex-basis: 44.42%;
+}
+
+div.lineup div.lineup_1 section.lineup_right1 h2 {
+  font-size: 2.18rem;
+}
+
+div.lineup div.lineup_2 {
+  /* background-color: #ff9211; */
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.lineup div.lineup_2 p.lineup_right2 {
+  margin-top: 5.79%;
+  margin-bottom: 5.79%;
+  margin-right: 4.13%;
+  flex-basis: 38.88%;
+}
+
+div.lineup div.lineup_2 p.lineup_right2 img {
+  transform: rotate(16deg);
+  border: 12px solid #fff;
+}
+
+div.lineup div.lineup_2 section.lineup_left2 h2 {
+  font-size: 2.18rem;
+}
+
+div.lineup div.lineup_2 section.lineup_left2 {
+  margin-top: 5.67%;
+  margin-bottom: 5.67%;
+  margin-left: 8.82%;
+  margin-right: 8.4%;
+  flex-basis: 38.88%;
+}
+
+div.lineup div.lineup_3 {
+  /* background-color: #ff5021; */
+  padding-bottom: 20px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.lineup div.lineup_3 p.lineup_left3 {
+  margin-top: 5.79%;
+  margin-bottom: 5.79%;
+  margin-left: 4.13%;
+  margin-right: 8.4%;
+  flex-basis: 38.88%;
+}
+
+div.lineup div.lineup_3 p.lineup_left3 img {
+  transform: rotate(-16deg);
+  border: 12px solid #fff;
+}
+
+div.lineup div.lineup_3 section.lineup_right3 {
+  margin-top: 5.67%;
+  margin-bottom: 5.67%;
+  margin-right: 4.13%;
+  flex-basis: 44.42%;
+}
+
+div.lineup div.lineup_3 section.lineup_right3 h2 {
+  font-size: 2.18rem;
+}
+
+/* ペアリング */
+main div p.pairing_title {
+  text-align: center;
+  font-size: 2.18rem;
+  margin-bottom: 3rem;
+}
+
+main div.pairing {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main div.pairing div {
+  width: 100%;
+  min-height: 28.75rem;
+  margin-bottom: 2.31rem;
+}
+
+div.pairing div.pairing_1 {
+  background-color: #ffe346;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.pairing div.pairing_1 p.pairing_left1 {
+  /* background-color: #fff; */
+  margin-top: 5.79%;
+  margin-bottom: 5.79%;
+  margin-left: 4.13%;
+  margin-right: 10.69%;
+  flex-basis: 38.88%;
+}
+
+div.pairing div.pairing_1 section.pairing_right1 {
+  margin-top: 5.67%;
+  margin-bottom: 5.67%;
+  margin-right: 3.6%;
+  flex-basis: 46.39%;
+  font-size: 1.5rem;
+}
+
+div.pairing div.pairing_1 section.pairing_right1 h2 {
+  font-size: 1.73rem;
+  padding-bottom: 2.13rem;
+}
+
+div.pairing div.pairing_2 {
+  background-color: #ff9211;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.pairing div.pairing_2 p.pairing_right2 {
+  margin-top: 5.79%;
+  margin-bottom: 5.79%;
+  margin-right: 3.6%;
+  flex-basis: 46.39%;
+}
+
+div.pairing div.pairing_2 section.pairing_left2 h2 {
+  font-size: 1.73rem;
+  padding-bottom: 2.13rem;
+}
+
+div.pairing div.pairing_2 section.pairing_left2 {
+  margin-top: 5.67%;
+  margin-bottom: 5.67%;
+  margin-left: 8.82%;
+  margin-right: 10.69%;
+  flex-basis: 38.88%;
+  font-size: 1.5rem;
+}
+
+div.pairing div.pairing_3 {
+  background-color: #ff5021;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.pairing div.pairing_3 p.pairing_left3 {
+  margin-top: 5.79%;
+  margin-bottom: 5.79%;
+  margin-left: 4.13%;
+  margin-right: 10.69%;
+  flex-basis: 38.88%;
+}
+
+div.pairing div.pairing_3 section.pairing_right3 {
+  margin-top: 5.67%;
+  margin-bottom: 5.67%;
+  margin-right: 3.6%;
+  flex-basis: 46.39%;
+  font-size: 1.5rem;
+}
+
+div.pairing div.pairing_3 section.pairing_right3 h2 {
+  font-size: 1.73rem;
+  padding-bottom: 2.13rem;
+}
+
+/* ドリンクメニュー */
+p.drink a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: fit-content;
+  padding: 15px 20px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: #5fd4ff;
+  background-position: center;
+}
+
+/* ディティール */
+main div p.detail_title {
+  text-align: center;
+  font-size: 2.18rem;
+  margin-bottom: 3rem;
+}
