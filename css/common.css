@@ -26,17 +26,30 @@ header a:hover {
   opacity: 70%;
 }
 
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  width: 30%;
+}
+
 header nav ul {
-  text-align: right;
+  text-align: center;
 }
 
 header nav ul li {
   display: inline;
-  margin-left: 30px;
+  margin-right: 3vw;
 }
 
 header nav ul li:last-child {
-  margin-right: 30px;
+  margin-right: -3vw;
+}
+
+nav ul li img {
+  width: 3vw;
+  height: auto;
+  margin: -10px 0;
 }
 
 /* メイン */
