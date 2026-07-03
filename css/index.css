@@ -122,7 +122,7 @@ div.images {
 
 .left_reef1 {
   position: absolute;
-  top: -1vw;
+  top: -10vw;
   left: 0;
   width: 26vw;
   padding-top: 5vh;
@@ -130,14 +130,14 @@ div.images {
 
 .cut_lemon {
   position: absolute;
-  top: 12vw;
+  top: 3vw;
   left: 5vw;
   width: 15vw;
 }
 
 .lemon {
   position: absolute;
-  top: 15vw;
+  top: 6vw;
   left: 0;
   width: 15%;
 }
@@ -211,8 +211,9 @@ main div.back {
 }
 
 main div p.lineup_title {
+  color: #021635;
   text-align: center;
-  font-size: 2.18rem;
+  font-size: 3.125rem;
   margin-bottom: 3rem;
 }
 
@@ -239,24 +240,41 @@ div.lineup div.lineup_1 p.lineup_left1 {
   margin-top: 5.79%;
   margin-bottom: 5.79%;
   margin-left: 4.13%;
-  margin-right: 8.4%;
+  margin-right: 0.4%;
   flex-basis: 38.88%;
 }
 
 div.lineup div.lineup_1 p.lineup_left1 img {
   transform: rotate(-16deg);
   border: 12px solid #fff;
+  box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
 div.lineup div.lineup_1 section.lineup_right1 {
   margin-top: 5.67%;
   margin-bottom: 5.67%;
-  margin-right: 4.13%;
-  flex-basis: 44.42%;
+  margin-right: 2.13%;
+  flex-basis: 49.42%;
 }
 
 div.lineup div.lineup_1 section.lineup_right1 h2 {
+  color: #1285f0;
   font-size: 2.18rem;
+  padding-bottom: 27px;
+}
+
+div.lineup_1 section.lineup_right1 p.lineup_example1 {
+  font-family: "Noto Serif JP";
+  font-size: 1.8125rem;
+  font-weight: 500;
+  padding-bottom: 7px;
+}
+
+div.lineup div.lineup_1 section.lineup_right1 p.lineup_explanation1 {
+  color: #021635;
+  font-family: "BIZ UDPMincho";
+  font-size: 1.375rem;
+  line-height: 1.75rem;
 }
 
 div.lineup div.lineup_2 {
@@ -276,6 +294,7 @@ div.lineup div.lineup_2 p.lineup_right2 {
 div.lineup div.lineup_2 p.lineup_right2 img {
   transform: rotate(16deg);
   border: 12px solid #fff;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
 div.lineup div.lineup_2 section.lineup_left2 h2 {
@@ -309,13 +328,14 @@ div.lineup div.lineup_3 p.lineup_left3 {
 div.lineup div.lineup_3 p.lineup_left3 img {
   transform: rotate(-16deg);
   border: 12px solid #fff;
+  box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
 div.lineup div.lineup_3 section.lineup_right3 {
   margin-top: 5.67%;
   margin-bottom: 5.67%;
   margin-right: 4.13%;
-  flex-basis: 44.42%;
+  flex-basis: 49.42%;
 }
 
 div.lineup div.lineup_3 section.lineup_right3 h2 {
