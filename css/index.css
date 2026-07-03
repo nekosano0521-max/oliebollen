@@ -13,6 +13,7 @@ p.visual img {
   width: 100%;
   height: auto;
   border-radius: 0 0 350% 600% / 0 0 1500px 1500px;
+  z-index: -100;
 }
 
 html {
@@ -30,7 +31,7 @@ div.all {
 
 div.images {
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 
 .left_reef1 {
@@ -58,24 +59,22 @@ div.images {
 .right_reef1 {
   position: absolute;
   top: 20vw;
-  right: -3vw;
+  right: -1vw;
   width: 30%;
-  transform: rotate(6deg);
 }
 
 .right_reef2 {
   position: absolute;
   top: 20vw;
   width: 25%;
-  right: -3vw;
-  transform: rotate(6deg);
+  right: -1vw;
 }
 
 .mango {
   position: absolute;
   top: 32vw;
-  width: 35%;
-  right: -18vw;
+  width: 16%;
+  right: -1vw;
 }
 
 .cut_mango {
@@ -83,6 +82,13 @@ div.images {
   top: 37vw;
   width: 20%;
   right: 4vw;
+}
+
+.watermelon_reef {
+  position: absolute;
+  top: 48vw;
+  width: 23%;
+  left: 15vw;
 }
 
 .watermelon {
@@ -107,7 +113,6 @@ main div.back {
   background-position: center top;
   background-size: cover;
   position: relative;
-  z-index: -2;
 }
 
 /* 商品説明 */
@@ -134,6 +139,7 @@ main div.lineup div {
   width: 100%;
   min-height: 28.75rem;
   margin-bottom: 2.31rem;
+  z-index: 1;
 }
 
 div.lineup div.lineup_1 {
