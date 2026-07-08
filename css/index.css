@@ -213,8 +213,9 @@ main div.back {
 
 main div p.lineup_title {
   color: #021635;
-  text-align: center;
   font-size: 3.125rem;
+  font-weight: 500;
+  text-align: center;
   margin-bottom: 3rem;
 }
 
@@ -354,8 +355,11 @@ div.lineup div.lineup_3 section.lineup_right3 h2 {
 }
 
 main div p.pairing_title {
+  color: #021635;
+  font-size: 3.125rem;
+  font-weight: 500;
   text-align: center;
-  font-size: 2.18rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
@@ -365,101 +369,179 @@ main div.pairing {
 }
 
 main div.pairing div {
-  width: 100%;
-  min-height: 28.75rem;
-  margin-bottom: 2.31rem;
+  width: 65.3125rem;
+  height: 20.5rem;
+  margin-bottom: 4.31rem;
+}
+
+div.pairing img {
+  width: 29.6875rem;
+  height: auto;
 }
 
 div.pairing div.pairing_1 {
-  background-color: #ffe346;
+  background-color: #fffded;
   line-height: 1.5;
   display: flex;
   justify-content: space-between;
+  box-shadow: 60px 30px 0px 0px #fffcd5;
 }
 
 div.pairing div.pairing_1 p.pairing_left1 {
   /* background-color: #fff; */
-  margin-top: 5.79%;
-  margin-bottom: 5.79%;
-  margin-left: 4.13%;
-  margin-right: 10.69%;
   flex-basis: 38.88%;
 }
 
 div.pairing div.pairing_1 section.pairing_right1 {
   margin-top: 5.67%;
-  margin-bottom: 5.67%;
   margin-right: 3.6%;
-  flex-basis: 46.39%;
-  font-size: 1.5rem;
+  flex-basis: 55%;
 }
 
-div.pairing div.pairing_1 section.pairing_right1 h2 {
-  font-size: 1.73rem;
+div.pairing_1 section.pairing_right1 h2 {
+  font-family: "BIZ UDGothic";
+  color: #3f0303;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: #fff;
+  font-size: 1.8rem;
   padding-bottom: 2.13rem;
+  font-weight: bold;
+  background-image: url(../img/X1.svg);
+  background-repeat: no-repeat;
+  background-position: 110px 5px;
+  background-size: 210px 75px;
+}
+
+div.pairing_1 section.pairing_right1 h2 span {
+  padding-left: 12rem;
+  /* white-space: nowrap; */
+  overflow: visible;
+}
+
+div.pairing_1 section.pairing_right1 p {
+  color: #2a1717;
+  font-family: "BIZ UDPMincho";
+  font-size: 1.1rem;
+  line-height: 2.6875rem;
 }
 
 div.pairing div.pairing_2 {
-  background-color: #ff9211;
+  background-color: #ffe0bc;
   line-height: 1.5;
   display: flex;
   justify-content: space-between;
+  box-shadow: 60px 30px 0px 0px #ffc481;
 }
 
-div.pairing div.pairing_2 p.pairing_right2 {
-  margin-top: 5.79%;
-  margin-bottom: 5.79%;
-  margin-right: 3.6%;
-  flex-basis: 46.39%;
-}
-
-div.pairing div.pairing_2 section.pairing_left2 h2 {
-  font-size: 1.73rem;
-  padding-bottom: 2.13rem;
-}
-
-div.pairing div.pairing_2 section.pairing_left2 {
-  margin-top: 5.67%;
-  margin-bottom: 5.67%;
-  margin-left: 8.82%;
-  margin-right: 10.69%;
+div.pairing div.pairing_2 p.pairing_left2 {
+  /* background-color: #fff; */
   flex-basis: 38.88%;
-  font-size: 1.5rem;
+}
+
+div.pairing div.pairing_2 section.pairing_right2 {
+  margin-top: 5.67%;
+  margin-right: 3.6%;
+  flex-basis: 55%;
+}
+
+div.pairing div.pairing_2 section.pairing_right2 h2 {
+  font-family: "BIZ UDGothic";
+  color: #3f0303;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: #fff;
+  font-size: 1.8rem;
+  padding-bottom: 2.13rem;
+  font-weight: bold;
+  background-image: url(../img/X1.svg);
+  background-repeat: no-repeat;
+  background-position: 110px 5px;
+  background-size: 210px 75px;
+}
+
+div.pairing_2 section.pairing_right2 h2 span {
+  padding-left: 12rem;
+  /* white-space: nowrap; */
+  overflow: visible;
+}
+
+div.pairing_2 section.pairing_right2 p {
+  color: #2a1717;
+  font-family: "BIZ UDPMincho";
+  font-size: 1.1rem;
+  line-height: 2.6875rem;
 }
 
 div.pairing div.pairing_3 {
-  background-color: #ff5021;
+  background-color: #fecec8;
   padding-bottom: 20px;
   line-height: 1.5;
   display: flex;
   justify-content: space-between;
+  box-shadow: 60px 30px 0px 0px #fe8778;
 }
 
 div.pairing div.pairing_3 p.pairing_left3 {
-  margin-top: 5.79%;
-  margin-bottom: 5.79%;
-  margin-left: 4.13%;
-  margin-right: 10.69%;
   flex-basis: 38.88%;
 }
 
 div.pairing div.pairing_3 section.pairing_right3 {
   margin-top: 5.67%;
-  margin-bottom: 5.67%;
   margin-right: 3.6%;
-  flex-basis: 46.39%;
-  font-size: 1.5rem;
+  flex-basis: 55%;
 }
 
 div.pairing div.pairing_3 section.pairing_right3 h2 {
-  font-size: 1.73rem;
+  font-family: "BIZ UDGothic";
+  color: #3f0303;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: #fff;
+  font-size: 1.8rem;
   padding-bottom: 2.13rem;
+  font-weight: bold;
+  background-image: url(../img/X1.svg);
+  background-repeat: no-repeat;
+  background-position: 110px 5px;
+  background-size: 210px 75px;
+}
+
+div.pairing_3 section.pairing_right3 h2 span {
+  padding-left: 16rem;
+  /* white-space: nowrap; */
+  overflow: visible;
+}
+
+div.pairing_3 section.pairing_right3 p {
+  color: #2a1717;
+  font-family: "BIZ UDPMincho";
+  font-size: 1.1rem;
+  line-height: 2.6875rem;
+}
+
+/* キャンペーン */
+div.campain section {
+  font-family: "Josefin Sans";
+}
+
+div.campain section h2 {
+  color: #021635;
+  font-size: 3.125rem;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+div.campain section p {
+  color: #f66b20;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 4.44rem;
 }
 
 /* ドリンクメニュー */
 p.drink a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   display: block;
   width: fit-content;
   padding: 15px 20px;
@@ -467,6 +549,13 @@ p.drink a {
   border-radius: 15px;
   background-color: #5fd4ff;
   background-position: center;
+}
+
+p.drink a img {
+  width: 17px;
+  height: 17px;
+  aspect-ratio: 1/1;
+  margin-top: -2px;
 }
 
 /* ディティール */
@@ -480,7 +569,11 @@ p.drink a {
 }
 
 main div p.detail_title {
+  font-family: "Josefin Sans";
+  color: #021635;
+  font-size: 3.125rem;
+  font-weight: 500;
   text-align: center;
-  font-size: 2.18rem;
-  margin-bottom: 3rem;
+  padding-top: 7.44rem;
+  padding-bottom: 3rem;
 }
