@@ -20,6 +20,7 @@ p.mainvisual_title {
   position: absolute;
   margin: 0 auto;
   left: 36vw;
+  padding-top: 5%;
 }
 
 p.mainvisual_title img {
