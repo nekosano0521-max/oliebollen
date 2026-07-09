@@ -300,7 +300,23 @@ div.lineup div.lineup_2 p.lineup_right2 img {
 }
 
 div.lineup div.lineup_2 section.lineup_left2 h2 {
+  color: #1285f0;
   font-size: 2.18rem;
+  padding-bottom: 27px;
+}
+
+div.lineup_2 section.lineup_left2 p.lineup_example2 {
+  font-family: "Noto Serif JP";
+  font-size: 1.8125rem;
+  font-weight: 500;
+  padding-bottom: 7px;
+}
+
+div.lineup div.lineup_2 section.lineup_left2 p.lineup_explanation2 {
+  color: #021635;
+  font-family: "BIZ UDPMincho";
+  font-size: 1.375rem;
+  line-height: 1.75rem;
 }
 
 div.lineup div.lineup_2 section.lineup_left2 {
