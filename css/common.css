@@ -72,3 +72,33 @@ footer {
   padding-top: 17px;
   padding-bottom: 17px;
 }
+
+/* レスポンシブ */
+@media (max-width: 767px) {
+}
+
+@media (max-width: 575px) {
+  header {
+    height: 100px;
+  }
+
+  header h1 {
+    padding: 0;
+    width: 18%;
+    padding-top: 14.15px;
+    padding-bottom: 15.09px;
+    padding-left: 16.63px;
+  }
+
+  header nav {
+    width: 40%;
+  }
+
+  header nav ul {
+    margin-top: -15px;
+  }
+
+  nav ul li img {
+    width: 5vw;
+  }
+}

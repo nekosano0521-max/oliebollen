@@ -452,7 +452,7 @@ div.pairing div.pairing_2 section.pairing_right2 h2 {
   font-size: 1.8rem;
   padding-bottom: 2.13rem;
   font-weight: bold;
-  background-image: url(../img/X1.svg);
+  background-image: url(../img/X2.svg);
   background-repeat: no-repeat;
   background-position: 110px 5px;
   background-size: 210px 75px;
@@ -498,7 +498,7 @@ div.pairing div.pairing_3 section.pairing_right3 h2 {
   font-size: 1.8rem;
   padding-bottom: 2.13rem;
   font-weight: bold;
-  background-image: url(../img/X1.svg);
+  background-image: url(../img/X3.svg);
   background-repeat: no-repeat;
   background-position: 110px 5px;
   background-size: 210px 75px;
@@ -576,4 +576,18 @@ main div p.detail_title {
   text-align: center;
   padding-top: 7.44rem;
   padding-bottom: 3rem;
+}
+
+/* レスポンシブ */
+@media (max-width: 767px) {
+}
+
+@media (max-width: 575px) {
+  p.mainvisual_background {
+    height: 200vw;
+  }
+  p.mainvisual_background img {
+    top: 0;
+    border-radius: 0 0 300% 300% / 0 0 150px 150px;
+  }
 }
