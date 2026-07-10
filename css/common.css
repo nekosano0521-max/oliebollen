@@ -64,7 +64,7 @@ nav ul li img {
 
 /* フッター */
 
-.container {
+.footer_container {
   /* background-color: bisque; */
   max-width: 980px;
   margin: 0 auto;
@@ -94,30 +94,33 @@ footer a:hover {
 footer h1 {
   width: 10%;
   height: 10%;
-  padding-left: 1vw;
 }
 
 footer div.footer_all {
+  font-family: "Yu Gothic UI";
+  color: #fffefe;
   display: flex;
   flex-basis: 100%;
   margin-top: 2vw;
 }
 
 footer div.footer_all address {
-  flex-basis: 40%;
-  font-size: 1.9vw;
-  line-height: 2.7vw;
+  flex-basis: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  margin-top: 10px;
 }
 
 footer div.footer_all div.footer_nav {
   display: flex;
   width: 100%;
-  margin-left: 16vw;
-  column-gap: 10vw;
+  margin-left: 180px;
+  column-gap: 30px;
 }
 
 footer div.footer_all div.footer_nav li {
-  padding-bottom: 2vw;
+  padding-bottom: 20px;
 }
 
 footer div.footer_all div.footer_nav li:last-child {
