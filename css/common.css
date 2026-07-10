@@ -109,14 +109,13 @@ footer div.footer_all address {
   font-size: 18px;
   font-weight: bold;
   line-height: 25px;
-  margin-top: 10px;
 }
 
 footer div.footer_all div.footer_nav {
   display: flex;
   width: 100%;
-  margin-left: 180px;
-  column-gap: 30px;
+  margin-left: 200px;
+  column-gap: 100px;
 }
 
 footer div.footer_all div.footer_nav li {
