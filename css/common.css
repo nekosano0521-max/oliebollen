@@ -64,7 +64,7 @@ nav ul li img {
 
 /* フッター */
 
-.container {
+.footer_container {
   /* background-color: bisque; */
   max-width: 980px;
   margin: 0 auto;
@@ -75,7 +75,6 @@ nav ul li img {
 footer {
   width: 100%;
   background-color: #5fd4ff;
-  color: #fff;
   text-align: left;
   padding-top: 1vw;
   padding-bottom: 5vw;
@@ -94,30 +93,32 @@ footer a:hover {
 footer h1 {
   width: 10%;
   height: 10%;
-  padding-left: 1vw;
 }
 
 footer div.footer_all {
+  font-family: "Yu Gothic UI";
+  color: #fffefe;
   display: flex;
   flex-basis: 100%;
   margin-top: 2vw;
 }
 
 footer div.footer_all address {
-  flex-basis: 40%;
-  font-size: 1.9vw;
-  line-height: 2.7vw;
+  flex-basis: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
 }
 
 footer div.footer_all div.footer_nav {
   display: flex;
   width: 100%;
-  margin-left: 16vw;
-  column-gap: 10vw;
+  margin-left: 200px;
+  column-gap: 100px;
 }
 
 footer div.footer_all div.footer_nav li {
-  padding-bottom: 2vw;
+  padding-bottom: 20px;
 }
 
 footer div.footer_all div.footer_nav li:last-child {
@@ -151,5 +152,43 @@ footer div.footer_all div.footer_nav li:last-child {
 
   nav ul li img {
     width: 5vw;
+  }
+
+  footer {
+    padding-top: 1vw;
+    padding-bottom: 0;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 3vw;
+  }
+
+  footer h1 {
+    width: 40%;
+    height: 40%;
+  }
+
+  footer div.footer_all {
+    margin-top: 2vw;
+    flex-basis: 50%;
+  }
+
+  footer div.footer_all address {
+    display: block;
+  }
+
+  footer h1,
+  footer div.footer_all address {
+    display: flex;
+    width: 100%;
+  }
+
+  footer div.footer_all div.footer_nav {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    column-gap: 100px;
   }
 }
