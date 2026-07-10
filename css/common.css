@@ -83,7 +83,7 @@ footer {
 footer a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.5vw;
+  font-size: 14px;
 }
 
 footer a:hover {
@@ -166,29 +166,37 @@ footer div.footer_all div.footer_nav li:last-child {
   }
 
   footer h1 {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
   }
 
   footer div.footer_all {
     margin-top: 2vw;
-    flex-basis: 50%;
+    flex-basis: 100%;
+    flex-wrap: wrap;
   }
 
   footer div.footer_all address {
-    display: block;
+    flex-basis: 100%;
+    margin-left: 18.5vw;
+    line-height: 32px;
+    letter-spacing: 0.03em;
   }
 
-  footer h1,
-  footer div.footer_all address {
+  .footer_container {
     display: flex;
-    width: 100%;
   }
 
   footer div.footer_all div.footer_nav {
-    display: flex;
-    width: 100%;
+    width: 150%;
     margin-left: 0;
-    column-gap: 100px;
+    column-gap: 14.5vw;
+    margin-top: 50px;
+    margin-left: -32vw;
+  }
+
+  footer div.footer_all div.footer_nav li {
+    padding-bottom: 10px;
+    letter-spacing: 0.05em;
   }
 }
